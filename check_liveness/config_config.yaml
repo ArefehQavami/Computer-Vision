@@ -1,0 +1,59 @@
+---
+## mellicard front image
+front_template_path: "config/frontTemplate.jpg"
+## mellicard back image
+back_template_path: "config/backTemplate.jpg"
+#########
+front_active_rotate: True
+front_active_region: True
+front_active_face: True
+front_active_light: True
+#########
+back_active_rotate: True
+back_active_region: True
+back_active_barcodeLight: False
+#########
+threshold_front_light_low: 9.0
+canny_high_thresh: 50
+canny_low_thresh: 200
+barcode_canny_high_thresh: 150
+barcode_canny_low_thresh: 200
+minimum_number_region: 6
+minimum_number_barcode: 6
+barcode_shape_min: 50
+barcode_shape_max: 500
+face_confidence_score: 0.98
+region_avg_threshold: 20
+crop_margin_horizontal: 10
+card_margin_vertical: 30
+img_resize_width: 800
+img_resize_height: 500
+region_kernel_size: 7
+barcode_kernel_size: 5
+barcode_light_avg_threshold: 220
+nationalCode_avg_threshold: 10
+name_avg_threshold: 2
+familyName_avg_threshold: 5
+birthday_avg_threshold: 4
+fatherName_avg_threshold: 4   #or 3.5
+rotate_canny_high_thresh: 50
+rotate_canny_low_thresh: 300
+blur_kernel_size: 5
+angle_thresh : 60
+vertical_angle : 90
+HoughLines_theta: 180
+HoughLines_threshold: 70
+HoughLinesP_theta: 180
+HoughLinesP_threshold: 45
+HoughLinesP_maxLineGap: 60
+HoughLinesP_minLineLength: 40
+segment_lines_delta: 15
+rotate_resize_scale_front:  0.6
+rotate_resize_scale_back: 0.5
+alpha_min_max_thresh: 0.2
+load_model_path : ""
+image_dimension_2D: [224, 224]
+image_dimension_3D: [224, 224, 3]
+image_dimension_4D: [1, 224, 224, 3]
+prediction_threshold: 0.6
+

@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    image: hosted-registry.citydi.biz/ek-service
+    container_name: "app-service"
+    ports:
+      - "5000:8000"
+
+    restart: always

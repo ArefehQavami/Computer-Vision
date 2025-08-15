@@ -1,0 +1,6 @@
+---
+
+image_dimension_2D: [224, 224]
+image_dimension_3D: [224, 224, 3]
+image_dimension_4D: [1, 224, 224, 3]
+prediction_threshold: 0.6

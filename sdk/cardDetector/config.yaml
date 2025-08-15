@@ -1,0 +1,30 @@
+---
+## mellicard front image
+dataFront_folderPath: "dataFront"
+#front_template_path: "../cardDetector/frontTemplate.jpg"
+front_template_path: "./cardDetector/frontTemplate.jpg"
+dataFront_cropped_folderPath: "dataFront-cropped"
+## mellicard back image
+#back_template_path: "../cardDetector/backTemplate.jpg"
+back_template_path: "./cardDetector/backTemplate.jpg"
+dataBack_folderPath: "dataBack"
+dataBack_cropped_folderPath: "dataBack-cropped"
+#########
+template_matching_maxVal: 0.070
+threshold_front_light: 7.0
+canny_high_thresh: 50
+canny_low_thresh: 200
+barcode_canny_high_thresh: 150
+barcode_canny_low_thresh: 200
+minimum_number_region: 6
+minimum_number_barcode: 6
+barcode_shape_min: 50
+barcode_shape_max: 500
+face_confidence_score: 0.99
+region_avg_threshold: 30
+card_margin: 10
+img_resize_width: 800
+img_resize_height: 500
+region_kernel_size: 7
+barcode_kernel_size: 3
+barcode_light_avg_threshold: 220
